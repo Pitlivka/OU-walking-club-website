@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Walk event management page </title>
+  <meta name="author" content="Adam Pitlivka"/> 
+  <link rel="stylesheet" href="q2a.css" type="text/css" />
+</head>
+
+<body>
+
+<header  tabindex="0" class="heading"><h1>Walk event management page</h1></header>
+
+<nav class="navigation"> 
+
+	<a href="ouwc_dummy.html" title="Dummy unfinishe page" tabindex="0" >Admin Home</a> 
+	<a href="ouwc_dummy.html" title="Dummy unfinishe page" tabindex="0" >Runner Data</a> 
+	<a href="ouwc_dummy.html" title="Dummy unfinishe page" tabindex="0">Extra link 1</a> 
+	<a href="ouwc_dummy.html" title="Dummy unfinishe page" tabindex="0">Extra link 2</a> 
+	<a href="ouwc_dummy.html" title="Dummy unfinishe page" tabindex="0">Extra link 3</a>
+	
+</nav>
+
+
+<input type="submit" id="logout"  value="LOG OUT" />
+
+   	  
+	   <form class="addWalk_form"
+      action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php"
+      method="post"
+	>
+    
+      <fieldset  class="walk_form"               >
+        <header tabindex="0" class="subheading1"><h2>ADD Walk Event </h2></header>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input id="name" name="name" type="text" />
+        </div>
+        <div class="form-group">
+          <label for="date">Date: </label>
+          <input id="date" name="date" type="text" />
+        </div>
+        <div class="form-group">
+          <label for="start_time">Start time: </label>
+          <input id="start_time" name="start_time" type="text"  />
+        </div>
+        <div class="form-group">
+          <label for="meeting_point">Meeting point: </label>
+          <input id="meeting_point" name="meeting_point" type="text" />
+        </div>
+        <div class="form-group">
+          <label for="distance_in_miles">Distance in miles: </label>
+          <input id="distance_in_miles" name="distance_in_miles" type="text" />
+        </div>
+
+		<div class="form-group">
+          <label for="notes">Notes: </label>
+          <input id="notes" name="notes" type="text"  />
+        </div>
+		<div class="form-group">
+          <input id="sessionID" name="sessionID" type="hidden" value="12345678-09ab-1111-cdef" />
+        </div>
+	
+  <input type="submit" value="Submit and Approve" >
+      </fieldset>
+
+	</form>
+
+<section class="approvedWalks" >
+
+<header  class="subheading2"><h3>Approved Walk Events </h3></header>
+
+   <ul tabindex="0" class="txt">
+    <li><b>Name:</b> e.g. Watcombe to Sheldon</li>
+    <li><b> Date:</b> e.g. 23 February 2019</li>
+	<li><b>Start time:</b> e.g. 10.30am</li>
+	<li><b>Meeting point:</b> e.g. Watcombe Car Park</li>
+	<li><b>Distance in miles:</b> e.g. 9</li>
+	<li><b>Notes:</b> e.g. Grade A walk with steep hills</li>
+   
+	
+  </ul>
+   <input tabindex="0" type="button"  value="EDIT" >
+  <ul tabindex="0" class="txt">
+    <li><b>Name:</b> e.g. Watcombe to Sheldon</li>
+    <li><b> Date:</b> e.g. 23 February 2019</li>
+	<li><b>Start time:</b> e.g. 10.30am</li>
+	<li><b>Meeting point:</b> e.g. Watcombe Car Park</li>
+	<li><b>Distance in miles:</b> e.g. 9</li>
+	<li><b>Notes:</b> e.g. Grade A walk with steep hills</li>
+  
+	
+  </ul>
+    <input tabindex="0" type="button"  value="EDIT" >
+   <ul tabindex="0" class="txt">
+    <li><b>Name:</b> e.g. Watcombe to Sheldon</li>
+    <li><b> Date:</b> e.g. 23 February 2019</li>
+	<li><b>Start time:</b> e.g. 10.30am</li>
+	<li><b>Meeting point:</b> e.g. Watcombe Car Park</li>
+	<li><b>Distance in miles:</b> e.g. 9</li>
+	<li><b>Notes:</b> e.g. Grade A walk with steep hills</li>
+ 
+	
+  </ul>
+     <input tabindex="0" type="button"  value="EDIT" >
+
+	  
+	  
+	  
+</section>
+	  
+
+	  
+	  
+	  	
+
+<section  class="proposedWalkEvents" >
+<header tabindex="0" class="subheading3"><h4>Proposed walk events by other members </h4></header>
+
+<ul tabindex="0" class="txt">
+    
+	<li><b>Name:</b> e.g. Watcombe to Sheldon</li>
+    <li> <b> Date:</b> e.g. 23 February 2019</li>
+	<li><b>Start time:</b> e.g. 10.30am</li>
+	<li><b>Meeting point:</b> e.g. Watcombe Car Park</li>
+	<li><b>Distance in miles:</b> e.g. 9</li>
+	<li><b>Notes:</b> e.g. Grade A walk with steep hills</li>
+    <li><b>Update status: </b>
+  
+	 <select tabindex="0" id="approving" name="approving events">
+     <option disabled selected value> -- Select option -- </option>
+     <option value="approve">Approve</option>
+     <option value="reject">Reject</option>
+
+     </select>
+<input type="submit" value="Submit" >
+	</li>
+		
+</ul>
+ 
+
+	
+
+	 <ul tabindex="0" class="txt">
+    
+	<li><b>Name:</b> e.g. Watcombe to Sheldon</li>
+    <li> <b> Date:</b> e.g. 23 February 2019</li>
+	<li><b>Start time:</b> e.g. 10.30am</li>
+	<li><b>Meeting point:</b> e.g. Watcombe Car Park</li>
+	<li><b>Distance in miles:</b> e.g. 9</li>
+	<li><b>Notes:</b> e.g. Grade A walk with steep hills</li>
+    <li><b>Update status: </b>
+  
+	  <select tabindex="0" id="approving2" name="approving events">
+     <option disabled selected value> -- Select option -- </option>
+     <option value="approve">Approve</option>
+     <option value="reject">Reject</option>
+	
+     </select>
+	  <input type="submit" value="Submit" >
+	</li>
+	
+	</ul>
+	
+ <ul tabindex="0" class="txt">
+    
+	<li><b>Name:</b> e.g. Watcombe to Sheldon</li>
+    <li> <b> Date:</b> e.g. 23 February 2019</li>
+	<li><b>Start time:</b> e.g. 10.30am</li>
+	<li><b>Meeting point:</b> e.g. Watcombe Car Park</li>
+	<li><b>Distance in miles:</b> e.g. 9</li>
+	<li><b>Notes:</b>e.g. Grade A walk with steep hills</li>
+    <li><b>Update</b>status: 
+  
+	   <select tabindex="0" id="approving3" name="approvingEvents">
+     <option disabled selected value> -- Select option -- </option>
+     <option value="approve">Approve</option>
+     <option value="reject">Reject</option>
+	
+     </select>
+ <input type="submit" value="Submit" >
+	</li>
+		
+    </ul>
+
+ </section>
+    
+
+<footer class="footer">
+	<a href="ouwc_dummy.html" tabindex="0" >Privacy</a> | 
+	<a href="ouwc_dummy.html" tabindex="0" >Contact</a> | 
+	<a href="ouwc_dummy.html" tabindex="0" >FAQs</a> | 
+	<a href="ouwc_dummy.html" tabindex="0" >Copyright</a> | 
+	<a href="ouwc_dummy.html" tabindex="0" >Conditions of use</a>
+</footer>
+
+
+</body>
+
+</html>
+
+
