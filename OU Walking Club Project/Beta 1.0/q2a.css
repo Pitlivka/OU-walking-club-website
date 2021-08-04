@@ -1,0 +1,255 @@
+    
+	html, body {
+	padding: 20px;
+	text-align:left;
+  	font-family: "Century Gothic", Geneva, Arial, sans-serif;
+	font-size:13px;
+	background-color: #d1e8e2;
+	height: 100%;
+	width:100%;
+
+}
+
+
+#logout {
+	position: absolute; left: 960px;
+	
+}
+
+
+
+.heading {
+	
+	font-size: 20px;
+	text-align: center;
+	position: absolute; top:0px; left:90px;
+    text-decoration: underline;
+	  font-weight: bold;
+	  font-style: italic;
+	 font-family: Georgia, serif;
+	 width: 1000px;
+    color: #85144b;
+}
+
+
+
+
+
+.navigation	{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	text-align: center;
+	position: absolute; top: 85px; left:-30px;
+	width: 1200px;
+	
+}
+
+
+.subheading1{
+	
+	
+   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 17px;
+	text-align: left;
+    position: absolute; top: -65px; left: 10px; 
+    max-width: 100%;
+    font-weight: bold;
+    color: #2c3531;
+	text-decoration: underline;
+	
+}
+
+
+
+.addWalk_form {
+ 
+  background-color: #d1e8e2;
+
+  box-sizing: border-box;
+  width: 430px;
+  margin: auto;
+  max-width: 100%;
+  position: absolute; top: 170px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+.walk_form {
+	background-color: #d9b08c;
+	
+	
+}
+
+fieldset {
+  margin-bottom: 0.5rem;
+ 
+  border:1px solid black;
+}
+
+input[type="text"]
+{
+    width:400px;
+	height: 25px;
+	margin:1px;
+	 margin: 1px 0;
+	  border:1px solid black;
+}
+
+.form-group {
+
+  display: block;
+
+  margin: 0.5rem;
+}
+
+
+.form-group label {
+
+  display: inline-block;
+
+  box-sizing: border-box;
+
+  min-width: 10rem;
+
+  max-width: 100%;
+  font-weight: bold;
+}
+
+
+
+
+
+.subheading2{
+	
+	
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 19px;
+	text-align: left;
+    position: absolute; top: -65px; left: 0px; 
+	min-width: 350px;
+    font-weight: bold;
+    color: #2c3531;
+	text-decoration: underline;
+	
+}
+
+
+
+
+
+
+.approvedWalks {
+	
+	
+	
+	font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+	text-align: left;
+	position: absolute; top: 170px; left: 500px; 
+	width: 550px;
+	height: 370px;
+	padding: 15px;
+	border-style: solid;
+	margin: 0px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: auto auto  ;
+	background-color: #d9b08c;
+	 grid-gap: 3px ;
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+.proposedWalkEvents {
+	
+   font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+	text-align: left;
+	position: absolute; top: 600px; 
+	width: 1000px;
+	padding: 20px;
+	column-count : 3;
+	border-style: solid;
+	margin: 2px;
+    box-sizing: border-box;
+    background-color: #d9b08c;
+	height: auto;
+
+	
+
+
+}
+.txt {
+  margin: 0;
+}
+
+.subheading3 {
+	
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 25px;
+	text-align: left;
+	position: absolute; top: -80px; left: 0px; 
+	min-width: 700px;
+    font-weight: bold;
+    color: #2c3531;
+    text-decoration: underline;
+}
+
+
+   input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+	background-color: #2c3531;
+    border-radius: 5px; 
+	position: relative; left:5px;
+	font-weight: bold;
+	color: #ffffe6;
+	
+}
+	
+		input[type=button] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+	background-color: #2c3531;
+    border-radius: 5px; 
+	position: relative;  left:5px; 
+	 font-weight: bold;
+	margin: 0px;
+    font-size: 40px;
+	color: #ffffe6;
+}
+ 
+.txt{
+	
+	padding: 2px;
+	
+}
+
+.footer {
+	position: absolute; left:320px; top:1000px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #000000;
+	width: 1200px;
+}
+
+
+
+
